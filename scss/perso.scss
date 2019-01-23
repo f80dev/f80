@@ -1,0 +1,34 @@
+.logos {
+  width:23vmin;
+  margin:2%;
+  display: inline;
+}
+
+.bg-secondary {
+  background-color: $secondary !important;
+}
+
+
+.bg-tertiary {
+  background-color: $tertiary !important;
+}
+
+.image-cropper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display:inline-block;
+}
+
+.photo-team {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.text-paragraphe {
+  padding:1%;
+  font-weight: lighter;
+}
+
