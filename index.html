@@ -56,11 +56,15 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">Mission</a>
+          <a class="nav-link js-scroll-trigger" href="#mission">Mission</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#services">Prestations</a>
+          <a class="nav-link js-scroll-trigger" href="#prestation">Prestations</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#competences">Compétences</a>
         </li>
 
         <li class="nav-item">
@@ -93,18 +97,19 @@
   </div>
 </header>
 
-<section class="bg-primary" id="about">
+<section class="bg-primary" id="mission">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
         <h2 class="section-heading text-white">Mission</h2>
         <hr class="light my-4">
-        <p class="text-faded mb-4">
-          Vous accompagner dans toutes les étapes de vos projets digitaux.
-          Un interlocuteur unique, de la conception à la réalisation, des idées au code !
+        <br>
+        <p class="mb-4 text-light">
+          Vous accompagner dans toutes les étapes de vos projets digitaux.<br>
+          Un unique interlocuteur, de la conception à la réalisation, des idées au code !
         </p>
-        <br><br>
-        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Démarrer</a>
+        <br><br><br>
+        <a class="btn btn-light btn-xl js-scroll-trigger" href="#prestation">Démarrer</a>
       </div>
     </div>
   </div>
@@ -171,8 +176,8 @@
   </div>
 </section>
 
-<section id="valeurs" class="bg-white text-dark">
-  <div class="container">
+<section id="competences" class="bg-white text-dark">
+  <div class="container mb-0">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Competences</h2>
@@ -189,7 +194,7 @@
 </section>
 
 
-<section id="references">
+<section id="references" class="bg-secondary">
   <div class="container text-center">
         <h2 class="section-heading">Références</h2>
         <p class="text-paragraphe">
@@ -199,53 +204,54 @@
         <hr class="my-4">
         <br>
           <div class="row">
-            <div class="col">
-              <div class="hovereffect">
-                <img class="img-responsive logos-references" src="https://shifumixweb.appspot.com/assets/img/logo440.png" alt="Shifumix">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-0">
+              <div class="hovereffect h-25">
+                <img class="img-responsive logos-references" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl6gRcR8WIPqB2E2JeD9mwsWmu3T3iO8OCSipnqra8EMuqwUZOew" alt="Shifumix">
                 <div class="overlay">
                   <h2>Shifumix</h2>
-                  <a class="info" href="javascript:popup('/project_pages/shifumix.html')">En savoir plus</a>
+                  <a class="info"
+                     href="javascript:popup('shifumix','/project_pages/shifumix.html')">En savoir plus</a>
                 </div>
               </div>
             </div>
 
-            <div class="col">
-              <div class="hovereffect">
-                <img class="img-responsive logos-references" src="/img/lesmiserables.jpg" alt="3DH">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="hovereffect h-25">
+                <img class="img-responsive logos-references" src="https://cdn-images-1.medium.com/max/1600/0*98sgk_Jc8AGzwC-K.jpg" alt="3DH">
                 <div class="overlay">
                   <h2>3DH</h2>
-                  <a class="info" href="javascript:popup('/project_pages/3dh.html')">En savoir plus</a>
+                  <a class="info"
+                     href="javascript:popup('3DH Analyse & 3D visualization','https://3dh.f80.fr/www/help.html#faq1')">En savoir plus</a>
                 </div>
               </div>
             </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="hovereffect h-25">
+                <img class="img-responsive logos-references" src="http://www.cnrs.fr/sites/default/files/styles/map_home/public/map/2018-03/histoire-cnrs_2.jpg?itok=izOBYKR4" alt="3DH">
+                <div class="overlay">
+                  <h2>CNRS</h2>
+                  <a class="info"
+                     href="javascript:popup('API de clustering','https://raw.githubusercontent.com/cnrsf80/ClusterBench/master/README.md')">En savoir plus</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="hovereffect h-25">
+                <img class="img-responsive logos-references" src="https://rseval.fr/img/header2.jpg" alt="RSEVAL">
+                <div class="overlay">
+                  <h2>RSE VAL</h2>
+                  <a class="info"
+                     href="javascript:popup('Site WEB de RSEVAL','https://rseval.fr')">En savoir plus</a>
+                </div>
+              </div>
+            </div>
+
           </div>
   </div>
 </section>
 
-<div class="modal" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content" style="height: 600px;width: 60vw;">
-
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Modal Heading</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-        <iframe id="modal_content" style="width:100%;height:100%;border:none;">
-        </iframe>
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-      </div>
-
-    </div>
-  </div>
-</div>
 
 <section id="contact" class="bg-tertiary text-light">
   <div class="container container-fluid text-center">
@@ -256,10 +262,10 @@
       <div class="col text-center">
             Hervé HOAREAU<br><br>
             <a class="m-0 text-light" href="https://www.linkedin.com/in/hhoareau/">
-              <i class="fab fa-linkedin fa-3x sr-contact-2 text-light"></i>
+              <i class="fab fa-linkedin fa-3x sr-contact-2"></i>
             </a>
         <br><br>
-        20 ans d'expériences chez SFR<br>en relation client, innovation, <br>développement produit
+        20 ans d'expériences<br>en relation client, innovation, <br>développement produit
       </div>
 
       <div class="col text-center">
@@ -287,6 +293,27 @@
   </div>
 </section>
 
+<!--Affichage d'une fenetre modale -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content" style="width: 60vw;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h5 id="modal_title" class="modal-title">Modal Heading</h5>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body" style="height: 80vh;">
+        <iframe id="modal_content" style="width:100%;height:100%;border:none;">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -300,7 +327,8 @@
 <script src="js/creative.js"></script>
 
 <script>
-  function popup(s){
+  function popup(title,s){
+      document.getElementById("modal_title").innerText=title;
       document.getElementById("modal_content").src=s;
       document.getElementById("modal_content").contentDocument=s;
       $("#myModal").modal();

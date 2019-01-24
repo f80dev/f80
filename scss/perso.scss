@@ -89,8 +89,11 @@
 }
 
 .logos-references {
-  width:500px;
-  height:300px;
+  margin:0px;
+  padding:0px;
+  object-fit: contain;
+  height:100%;
+  display: inline-block;
 }
 
 .bg-secondary {

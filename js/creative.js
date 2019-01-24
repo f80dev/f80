@@ -98,12 +98,16 @@ function init_competences() {
             label:"Developpement web"
         },
         ionic:{
-          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ionic-logo-landscape.svg/2000px-Ionic-logo-landscape.svg.png",
+          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ionic_Logo.svg/2000px-Ionic_Logo.svg.png",
             label:"Progressive Web App"
           },
         java:{
           image:"http://geeko.lesoir.be/wp-content/uploads/sites/58/2016/01/java.png",
             label:"version entreprise"
+        },
+        agile:{
+            image:"https://www.apollo-formation.com/wp-content/uploads/Agile-Scrum-Logo-Flat-270x270.png",
+            label:"Méthodes de développement agiles"
         },
         python:{
           image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1280px-Python_logo_and_wordmark.svg.png",
@@ -113,12 +117,20 @@ function init_competences() {
           image:"https://camo.githubusercontent.com/7271a61d1ca8e8a0fbbefb6645d33da5a8c2c95c/68747470733a2f2f6b6172616e636f64652e66696c65732e776f726470726573732e636f6d2f323031352f30332f76697375616c6261736963312e706e67",
             label:"developpement application windows"
         },
+        github:{
+            image:"https://i2.wp.com/www.globalemancipation.ngo/wp-content/uploads/2017/09/github-logo.png?ssl=1",
+            label:"Gestion du code source"
+        },
+        googleapi:{
+          image:"http://zied.ellouze.tn/google_maps/images/google_developers_logo.png",
+          label:"Google API (maps,data,contact)"
+        },
         Android:{
           image:"https://miro.medium.com/max/856/1*vzu94HpfYYsEQJUJ69_pMw.jpeg",
             label:"developpement android"
         },
-        theano:{
-          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Theano_logo.svg/1280px-Theano_logo.svg.png",
+        keras:{
+          image:"https://www.anakeyn.com/v3/wp-content/uploads/2018/09/keras-logo-2018-large-1200.png",
             label:"Inteligence artificielle"
         },
         spark:{
@@ -130,7 +142,7 @@ function init_competences() {
             label:"surcouche de javascript"
         },
         google_cloud:{
-          image:"https://betanews.com/wp-content/uploads/2018/06/google-cloud-logo.jpg",
+          image:"https://www.xda-developers.com/files/2016/04/Google-CloudPlatform_VerticalLockup.png",
             label:"avec java"
         },
         bootstrap:{
