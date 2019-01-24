@@ -204,7 +204,7 @@
                 <img class="img-responsive logos-references" src="https://shifumixweb.appspot.com/assets/img/logo440.png" alt="Shifumix">
                 <div class="overlay">
                   <h2>Shifumix</h2>
-                  <a class="info" href="javascript:popup('shifumix')">En savoir plus</a>
+                  <a class="info" href="javascript:popup('/project_pages/shifumix.html')">En savoir plus</a>
                 </div>
               </div>
             </div>
@@ -214,7 +214,7 @@
                 <img class="img-responsive logos-references" src="/img/lesmiserables.jpg" alt="3DH">
                 <div class="overlay">
                   <h2>3DH</h2>
-                  <a class="info" href="javascript:popup('3dh')">En savoir plus</a>
+                  <a class="info" href="javascript:popup('/project_pages/3dh.html')">En savoir plus</a>
                 </div>
               </div>
             </div>
@@ -222,7 +222,30 @@
   </div>
 </section>
 
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content" style="height: 600px;width: 60vw;">
 
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <iframe id="modal_content" style="width:100%;height:100%;border:none;">
+        </iframe>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 <section id="contact" class="bg-tertiary text-light">
   <div class="container container-fluid text-center">
@@ -231,17 +254,12 @@
     <br>
     <div class="row">
       <div class="col text-center">
-
             Hervé HOAREAU<br><br>
             <a class="m-0 text-light" href="https://www.linkedin.com/in/hhoareau/">
               <i class="fab fa-linkedin fa-3x sr-contact-2 text-light"></i>
             </a>
-
         <br><br>
-
         20 ans d'expériences chez SFR<br>en relation client, innovation, <br>développement produit
-
-
       </div>
 
       <div class="col text-center">
@@ -280,6 +298,14 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/creative.js"></script>
+
+<script>
+  function popup(s){
+      document.getElementById("modal_content").src=s;
+      document.getElementById("modal_content").contentDocument=s;
+      $("#myModal").modal();
+  }
+</script>
 
 </body>
 
