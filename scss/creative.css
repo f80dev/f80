@@ -249,3 +249,14 @@ header.masthead {
 .text-paragraphe {
   padding: 1%;
   font-weight: lighter; }
+
+.project_visual {
+  width: 300px;
+  display: inline-block;
+  margin: 5px; }
+
+.showme {
+  display: none; }
+
+.showhim:hover .showme {
+  display: block; }
