@@ -43,7 +43,9 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">F80</a>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <img src="./img/logoF80.png" width="40">
+    </a>
     <button class="navbar-toggler navbar-toggler-right"
             type="button"
             data-toggle="collapse"
@@ -83,15 +85,13 @@
   <div class="container my-auto">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <img src="./img/f80.png" width="250">
+        <br><br>
+        <img src="./img/logoF80_inverse.png" width="150" style="opacity: 0.7;">
         <hr>
       </div>
-      <div class="col-lg-8 mx-auto">
-        <p class="text-faded mb-5">
-          Réaliser vos idées
-        </p>
-        <br><br>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#mission">En savoir plus</a>
+      <div class="col-lg-8 mx-auto text-light" style="font-size: xx-large">
+        <h2>Réaliser vos idées</h2><br><br><br>
+        <a class="btn btn-primary btn-xl js-scroll-trigger mt-5" href="#mission">En savoir plus</a>
       </div>
     </div>
   </div>
@@ -196,7 +196,6 @@
     <div id="carousel_content" class="carousel-inner text-center carousel-title">
     </div>
   </div>
-
 </section>
 
 
@@ -204,50 +203,60 @@
   <div class="container text-center">
         <h2 class="section-heading">Réalisations</h2>
         <p class="text-paragraphe">
-          Après 20 ans chez SFR sur de nombreuses missions de transformation Digitale,
-          j'ai fondé F80 pour mettre à votre service mes connaissances à la fois métier et technique.
+          De nombreuses réalisations dans les domaines des Data Sciences, des applications mobiles,
+          de la conception et réalisation de site web<br>
         </p>
         <hr class="my-4">
         <br>
+    <br>
           <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-0">
-              <div class="hovereffect h-25">
-                <img class="img-responsive logos-references" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl6gRcR8WIPqB2E2JeD9mwsWmu3T3iO8OCSipnqra8EMuqwUZOew" alt="Shifumix">
+            <div class="col-3">
+              <div class="hovereffect">
+                <div class="container-logo-references">
+                  <img class="img-responsive logos-references" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl6gRcR8WIPqB2E2JeD9mwsWmu3T3iO8OCSipnqra8EMuqwUZOew" alt="Shifumix">
+                </div>
                 <div class="overlay">
-                  <h2>Shifumix</h2>
+                  <h2 class="bg-primary">Shifumix</h2>
                   <a class="info"
                      href="javascript:popup('shifumix','/project_pages/shifumix.html')">En savoir plus</a>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-              <div class="hovereffect h-25">
-                <img class="img-responsive logos-references" src="https://cdn-images-1.medium.com/max/1600/0*98sgk_Jc8AGzwC-K.jpg" alt="3DH">
-                <div class="overlay">
-                  <h2>3DH</h2>
+            <div class="col-3">
+              <div class="hovereffect">
+                <div class="container-logo-references">
+                 <img class="img-responsive logos-references" src="https://cdn-images-1.medium.com/max/1600/0*98sgk_Jc8AGzwC-K.jpg" alt="3DH">
+                </div>
+                  <div class="overlay">
+                  <h2 class="bg-primary">3DH</h2>
                   <a class="info"
                      href="javascript:popup('3DH Analyse & 3D visualization','./project_pages/3dh.html')">En savoir plus</a>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-              <div class="hovereffect h-25">
+            <div class="col-3">
+              <div class="hovereffect">
+                <div class="container-logo-references">
+
                 <img class="img-responsive logos-references" src="http://www.cnrs.fr/sites/default/files/styles/map_home/public/map/2018-03/histoire-cnrs_2.jpg?itok=izOBYKR4" alt="3DH">
+                </div>
                 <div class="overlay">
-                  <h2>CNRS</h2>
+                  <h2 class="bg-primary">CNRS</h2>
                   <a class="info"
                      href="javascript:popup('API de clustering','./project_pages/cnrs.html')">En savoir plus</a>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-              <div class="hovereffect h-25">
-                <img class="img-responsive logos-references" src="https://rseval.fr/img/header2.jpg" alt="RSEVAL">
+            <div class="col-3">
+              <div class="hovereffect">
+                <div class="container-logo-references">
+                  <img class="img-responsive logos-references" src="https://rseval.fr/img/header2.jpg" alt="RSEVAL">
+                </div>
                 <div class="overlay">
-                  <h2>RSE VAL</h2>
+                  <h2 class="bg-primary">RSE VAL</h2>
                   <a class="info"
                      href="javascript:popup('Site WEB de RSEVAL','./project_pages/rseval.html')">En savoir plus</a>
                 </div>
@@ -303,13 +312,11 @@
 <div class="modal fade" id="myModal">
   <div class="modal-dialog modal-lg">
     <div class="modal-content" style="width: 60vw;">
-
       <!-- Modal Header -->
       <div class="modal-header">
-        <h5 id="modal_title" class="modal-title">Modal Heading</h5>
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <h4 id="modal_title" class="modal-title text-primary">Modal Heading</h4>
+          <i class="fas fa-window-close fa-2x text-primary" data-dismiss="modal"></i>
       </div>
-
       <!-- Modal body -->
       <div class="modal-body" style="height: 80vh;">
         <iframe id="modal_content" style="width:100%;height:100%;border:none;">
