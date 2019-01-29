@@ -23,21 +23,24 @@
 <body style="text-align: center;padding: 0px;overflow: hidden;" class="small">
 Production d'une API de clustering & représentation 3D pour le CNRS<br><br>
 
-L'api, développée en Python, repose sur le framework Flask. Elle utilise les derniers algorithmes de
-clustering en particulier HDBSCAN pour regrouper des échantillions archélogique par composition chimique proche.<br><br>
+L'api, développée en Python, repose sur la librairie SCIKIT-LEARN pour le clustering et NetworkX pour l'analyse de graphe.
+Elle utilise les derniers algorithmes de
+clustering pour regrouper des échantillions archélogique par composition chimique proche.<br>
+
+Certains algorithme tels qu'HDBSCAN (une optimisation de DBSCAN en multi-densité) sont en phase béta.
 
 Le résultat du clustering est ensuite projeté dans un espace à 3 dimensions par analyse en composante principale puis
 représenté en 3D dans n'importe quel navigateur WEB par la mise en oeuvre de la bibliotheque BabylonJS, habituellement utilisé
 pour le jeu vidéo.<br><br>
 
-Du point de vue infrastucture, l'api peut être déployé rapidement sur n'importe quel serveur x86 via Docker<br><br>
+Du point de vue infrastucture, l'api peut être déployé rapidement sur n'importe quel serveur x86 via Docker<br>
 
 Exemple d'utilisation :<br>
 <code>
     https://ss.shifumix.com:5000/graph/lesmiserables.gml/fr?algo_comm=NOTREATMENT&dir=public&notext=True&nometrics=True&add_property=False&autorotate=True&limit=5000&pca=1&processors=2
-</code><br>
+</code><br><br>
 
-<iframe style="width:100%;height:300px;border: none"
+<iframe style="width:100%;height:500px;border: none"
         src="https://ss.shifumix.com:5000/graph/lesmiserables.gml/fr?algo_comm=NOTREATMENT&dir=public&notext=True&nometrics=True&add_property=False&autorotate=True&limit=5000&pca=1&processors=2">
 </iframe>
 

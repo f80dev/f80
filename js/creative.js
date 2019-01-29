@@ -139,11 +139,15 @@ function init_competences() {
         },
         typescript:{
           image:"https://vinceops.me/content/images/2018/02/TypeScript-3.png",
-            label:"surcouche de javascript"
+            label:"Surcouche de javascript"
         },
         google_cloud:{
           image:"https://www.xda-developers.com/files/2016/04/Google-CloudPlatform_VerticalLockup.png",
-            label:"avec java"
+            label:"Hébergement applicatif"
+        },
+        rest_api:{
+            image:"https://accessusergroups.org/access-latino/wp-content/uploads/sites/3/2018/03/ApiRest.png",
+            label:"Architecture API en mode Rest"
         },
         bootstrap:{
           image:"https://www.sodifrance.fr/blog/wp-content/uploads/2017/05/bootstrap.png",
@@ -171,11 +175,19 @@ function init_competences() {
         },
         intellij:{
           image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/IntelliJ_IDEA_Logo.svg/1024px-IntelliJ_IDEA_Logo.svg.png",
-            label:"Environnement de developpement"
+            label:"Environnement de développement"
+        },
+        networkx:{
+            image:"https://d2.alternativeto.net/dist/icons/networkx_90298.png?width=128&height=128&mode=crop&upscale=false",
+            label:"NetworkX : Analyse de graphe"
         },
         GoogleAnalytics:{
           image:"https://www.cookiebot.com/media/1082/googleanalytics.png?width=500&height=291.66666666666663",
             label:"Analyse & développement d'audience"
+        },
+        Linux:{
+          image:"https://cdn.icon-icons.com/icons2/1159/PNG/256/linux_81610.png",
+            label:"Développement sur Linux"
         },
         hadoop:{
           image:"https://www.lintao-dashboards.com/wp-content/uploads/2015/10/hadoop-logo-475x230.png",

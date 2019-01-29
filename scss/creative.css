@@ -297,21 +297,17 @@ header.masthead {
   display: inline; }
 
 .logos-competences {
-  height: 23vmin;
+  height: 15vmin;
   margin: 2%;
-  display: inline;
-  max-width: 400px; }
+  display: inline; }
 
 .container-logo-references {
   height: 300px;
-  width: 400px;
+  width: 100%;
   overflow: hidden; }
 
 .logos-references {
-  margin: 0px;
-  padding: 0px;
-  width: 400px;
-  height: 300px; }
+  object-fit: cover; }
 
 .bg-secondary {
   background-color: rgba(200, 203, 200, 0.47) !important; }
