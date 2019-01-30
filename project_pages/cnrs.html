@@ -29,9 +29,10 @@ clustering pour regrouper des échantillions archélogique par composition chimi
 
 Certains algorithme tels qu'HDBSCAN (une optimisation de DBSCAN en multi-densité) sont en phase béta.
 
-Le résultat du clustering est ensuite projeté dans un espace à 3 dimensions par analyse en composante principale puis
-représenté en 3D dans n'importe quel navigateur WEB par la mise en oeuvre de la bibliotheque BabylonJS, habituellement utilisé
-pour le jeu vidéo.<br><br>
+Quelque soit le nombre de composantes, les points sont projetés dans un espace en 3 dimension par analyse en composante principale,
+pour être représenté en 3D dans n'importe quel navigateur WEB par la mise en oeuvre de la bibliotheque BabylonJS, habituellement utilisé
+pour le jeu vidéo. On assure ainsi une parfaite représentation tout en permettant une certaine interactivité sur le graphique (changement d'angle,
+mise en transparence, enregistrement vidéo ...) <br><br>
 
 Du point de vue infrastucture, l'api peut être déployé rapidement sur n'importe quel serveur x86 via Docker<br>
 
