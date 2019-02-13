@@ -163,3 +163,28 @@
     opacity: 1;
   }
 }
+
+.button-more {
+  color:$primary;
+  margin-top:10px;
+}
+
+.text-presta {
+  height:120px;
+  font-size:small;
+}
+
+.iframe-more {
+  height:0;
+  border:none;
+  width:100%;
+  opacity:0.0;
+  transition: opacity 1s, height 2s;
+}
+
+.text-more {
+  font-size: small;
+  font-weight: lighter;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif
+  color:$primary;
+}

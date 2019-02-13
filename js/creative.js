@@ -97,7 +97,7 @@ function init_competences() {
     var competences = {
         angular:{
           image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/220px-Angular_full_color_logo.svg.png",
-            label:"Developpement web"
+            label:"Developpement front-end"
         },
         ionic:{
           image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ionic_Logo.svg/2000px-Ionic_Logo.svg.png",
@@ -113,7 +113,7 @@ function init_competences() {
         },
         python:{
           image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1280px-Python_logo_and_wordmark.svg.png",
-            label:"langage scientifique"
+            label:"Développement scientifique"
         },
         visualbasic:{
           image:"https://camo.githubusercontent.com/7271a61d1ca8e8a0fbbefb6645d33da5a8c2c95c/68747470733a2f2f6b6172616e636f64652e66696c65732e776f726470726573732e636f6d2f323031352f30332f76697375616c6261736963312e706e67",
@@ -197,7 +197,7 @@ function init_competences() {
         },
         langageR:{
           image:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1200px-R_logo.svg.png",
-            label:"Etudes statistiques"
+            label:"Langages statistiques"
         },
         docker:{
           image:"https://d1.awsstatic.com/acs/characters/Logos/Docker-Logo_Horizontel_279x131.b8a5c41e56b77706656d61080f6a0217a3ba356d.png",
@@ -224,6 +224,26 @@ function init_competences() {
 
     }
 }
+
+var last_option=null;
+function show_more(option) {
+    if(option!=last_option){
+        var elt=document.getElementsByName("more")[option-1];
+        elt.style="height:300px;opacity: 1.0;";
+        elt.src="./subpages/more_"+["conseil","data","developpement","budget"][option-1]+".html";
+        last_option=option;
+    } else {
+        option=5;
+    }
+
+    for(var i=0;i<4;i++){
+        if(i!=option-1)
+            document.getElementsByName("more")[i].style="height:0px;opacity:0.0;"
+    }
+
+
+}
+
 
 $("document").ready(()=>{
   init_competences();

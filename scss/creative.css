@@ -358,3 +358,24 @@ header.masthead {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+.button-more {
+  color: #500042;
+  margin-top: 10px; }
+
+.text-presta {
+  height: 140px;
+  font-size: small; }
+
+.iframe-more {
+  height: 0;
+  border: none;
+  width: 100%;
+  opacity: 0.0;
+  transition: opacity 1s, height 2s; }
+
+.text-more {
+  font-size: small;
+  font-weight: lighter;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #500042; }

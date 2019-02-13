@@ -31,7 +31,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133111309-1"></script>
   <script>
-      window.dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
@@ -129,56 +129,68 @@
   </div>
   <div class="container">
     <div class="row small">
-      <div class="col-lg-3 col-md-6 text-center">
+      <div class="col-lg-3 col-md-6 text-center" name="resume">
         <div class="service-box mt-5 mx-auto">
           <i class="fas fa-4x fa-brain text-primary mb-3 sr-icon-1"></i>
           <h3 class="mb-3">Conseil</h3>
-          <p class="text-muted mb-0">
+          <p class="text-muted mb-0 text-presta">
             Stratégie digitale & conduite du changement<br>
             Conception en mode agile,<br><br>
             Architectures technique de la solution.
           </p>
+          <i class="fas fa-2x fa-chevron-down button-more" onclick="show_more(1)"></i><br>
+          <iframe name="more" scrolling="no" class="iframe-more"></iframe>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 text-center">
+      <div class="col-lg-3 col-md-6 text-center" name="resume">
         <div class="service-box mt-5 mx-auto">
           <i class="fas fa-4x fa-database text-primary mb-3 sr-icon-3"></i>
           <h3 class="mb-3">Data</h3>
-          <p class="text-muted mb-0">
+          <p class="text-muted mb-0 text-presta">
             Analyse de vos données<br>
             Algorithmes d'apprentissages<br><br>
             Techniques avancées de clustering<br>
             Analyse & représentation de graphe
           </p>
+          <i class="fas fa-2x fa-chevron-down button-more" onclick="show_more(2)"></i>
+          <iframe name="more" scrolling="no" class="iframe-more"></iframe>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 text-center">
+      <div class="col-lg-3 col-md-6 text-center" name="resume">
         <div class="service-box mt-5 mx-auto">
           <i class="fas fa-4x fa-laptop-code text-primary mb-3 sr-icon-2"></i>
           <h3 class="mb-3">Développement</h3>
-          <p class="text-muted mb-0">
+          <p class="text-muted mb-0 text-presta">
             Développement Full-stack.<br>
             Du Front-end (site, interface, application)
             au back-end (micro-service, hébergement cloud).<br><br>
             Administration du code & déploiement continue
           </p>
+          <i class="fas fa-2x fa-chevron-down button-more" onclick="show_more(3)"></i>
+          <iframe name="more" scrolling="no" class="iframe-more"></iframe>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 text-center">
+      <div class="col-lg-3 col-md-6 text-center" name="resume">
         <div class="service-box mt-5 mx-auto">
           <i class="fas fa-4x fa-money-bill text-primary mb-3 sr-icon-4"></i>
           <h3 class="mb-3">Business</h3>
-          <p class="text-muted mb-0">
+          <p class="text-muted mb-0 text-presta">
             Mesure et développement d'audience, Référencement<br><br>
-
             Optimisation du compromis performance / coûts
           </p>
+          <div>
+            <i class="fas fa-2x fa-chevron-down button-more" onclick="show_more(4)"></i>
+            <iframe name="more" scrolling="no" class="iframe-more"></iframe>
+          </div>
+
         </div>
       </div>
     </div>
+
+
   </div>
 </section>
 
@@ -202,7 +214,7 @@
 <!--Projets-->
 <section id="references" class="bg-tertiary text-light">
   <div class="container text-center">
-        <h2 class="section-heading">Réalisations</h2>
+        <h2 class="section-heading">Dernières réalisations</h2>
         <p class="text-paragraphe">
           De nombreuses réalisations dans les domaines des Data Sciences, des applications mobiles,
           de la conception et réalisation de site web<br>
