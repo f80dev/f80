@@ -229,7 +229,7 @@ var last_option=null;
 function show_more(option) {
     if(option!=last_option){
         var elt=document.getElementsByName("more")[option-1];
-        elt.style="height:300px;opacity: 1.0;";
+        elt.style="height:400px;opacity: 1.0;";
         elt.src="./subpages/more_"+["conseil","data","developpement","budget"][option-1]+".html";
         last_option=option;
     } else {

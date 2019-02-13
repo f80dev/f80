@@ -185,6 +185,11 @@
 .text-more {
   font-size: small;
   font-weight: lighter;
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif
-  color:$primary;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color:black;
+  background:none;
+}
+
+.more-body {
+  background: none;
 }
