@@ -221,9 +221,9 @@ function init_competences() {
             div.className="carousel-item";
 
         document.getElementById("carousel_content").appendChild(div);
-
     }
 }
+
 
 var last_option=null;
 function show_more(option) {
@@ -240,10 +240,7 @@ function show_more(option) {
         if(i!=option-1)
             document.getElementsByName("more")[i].style="height:0px;opacity:0.0;"
     }
-
-
 }
-
 
 $("document").ready(()=>{
   init_competences();
