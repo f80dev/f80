@@ -28,12 +28,12 @@
 
   // Collapse Navbar
   var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
+    if ($("#mainNav").offset().top > 400) {
       $("#mainNav").addClass("navbar-shrink");
-        document.getElementById("logoF80").style.display="inline";
+        document.getElementById("mainNav").style.opacity="1.0";
     } else {
       $("#mainNav").removeClass("navbar-shrink");
-      document.getElementById("logoF80").style.display="none";
+      document.getElementById("mainNav").style.opacity="0.0";
     }
   };
   // Collapse now if page is not at top
@@ -188,7 +188,7 @@ function init_competences() {
             label:"Analyse & développement d'audience"
         },
         Linux:{
-          image:"https://cdn.icon-icons.com/icons2/1159/PNG/256/linux_81610.png",
+          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Tux_Enhanced.svg/154px-Tux_Enhanced.svg.png",
             label:"Développement sur Linux"
         },
         hadoop:{
