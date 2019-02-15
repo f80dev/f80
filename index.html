@@ -385,8 +385,11 @@
 <script>
   function popup(title,s){
       document.getElementById("modal_title").innerText=title;
-      document.getElementById("modal_content").src=s;
-      document.getElementById("modal_content").contentDocument=s;
+      var elt=document.getElementById("modal_content");
+      elt.src=s;
+      elt.contentDocument=s;
+      elt.scrolling="yes";
+      elt.style.height="1500px";
       $("#myModal").modal();
   }
 
