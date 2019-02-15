@@ -348,8 +348,8 @@ header.masthead {
 
 .fadeIn-Long {
   opacity: 0;
-  animation: fadeIn 8s forwards;
-  animation-delay: 2s; }
+  animation: fadeIn 15s forwards;
+  animation-delay: 4s; }
 
 @keyframes fadeIn {
   0% {
