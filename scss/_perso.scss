@@ -136,6 +136,9 @@
   display: none;
 }
 
+
+
+
 .showhim:hover .showme{
   display : block;
 }
@@ -143,6 +146,10 @@
 .fadeIn {
   opacity: 0;
   animation: fadeIn 4s forwards;
+}
+
+.fadeInAndOut {
+   animation: fadeinout 4s linear forwards;
 }
 
 .fadeIn-Long {
@@ -153,14 +160,13 @@
 
 .fadeIn-medium {
   opacity: 0.2;
-  animation: fadeIn 20s forwards;
+  animation: fadeIn 25s forwards;
   animation-delay: 3s;
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
-
   }
   30% {
     opacity: 0;
@@ -168,6 +174,13 @@
   100% {
     opacity: 1;
   }
+}
+
+@keyframes fadeinout {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 .button-more {

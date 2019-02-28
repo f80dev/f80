@@ -210,7 +210,7 @@ function init_competences() {
 
     };
     var toActivate=true;
-    for(let p in competences){
+    for(var p in competences){
         var div=document.createElement("div");
         if(competences[p].label==null)competences[p].label="";
         div.innerHTML="<img src='"+competences[p].image+"' class='logos-competences'><br><small>"+competences[p].label+"</small>";
