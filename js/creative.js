@@ -261,10 +261,21 @@ function show_more(option) {
     }
 }
 
+function showMessage(idx){
+    var elts=document.getElementsByName("message");
+    if(idx<elts.length){
+        elts[idx].classList.add("fadeInAndOut");
+        setTimeout(()=>{
+            showMessage(idx+1);
+            if(idx+2==elts.length){
+                document.getElementById("logo").classList.add("fadeIn-medium");
+                document.getElementById("button_more").classList.add("fadeIn-Long");
+            }
+        },5000)
+    }
+}
+
 $("document").ready(()=>{
   init_competences();
-
-  // setTimeout(()=>{
-  //     document.getElementById("first_message").classList.toggle("active");
-  // },3000)
+  showMessage(0);
 });
