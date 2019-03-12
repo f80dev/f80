@@ -158,7 +158,7 @@ function init_competences() {
             link:"https://f80.fr/project_pages/shifumix.html"
         },
         bootstrap:{
-            image:"https://www.sodifrance.fr/blog/wp-content/uploads/2017/05/bootstrap.png",
+            image:"https://fuzati.com/wp-content/uploads/2016/12/Bootstrap-Logo.png",
             label:"Version 4.0",
             link:"https://rseval.fr"
         },
@@ -219,7 +219,7 @@ function init_competences() {
         docker:{
           image:"https://d1.awsstatic.com/acs/characters/Logos/Docker-Logo_Horizontel_279x131.b8a5c41e56b77706656d61080f6a0217a3ba356d.png",
             label:"gestion de containers",
-            link:"https://hub.docker.com/?namespace=f80hub"
+            link:"https://hub.docker.com/search?q=f80hub&type=image"
         },
         hive:{
           image:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Apache_Hive_logo.svg/1200px-Apache_Hive_logo.svg.png",
