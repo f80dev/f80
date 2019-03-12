@@ -171,6 +171,10 @@ function init_competences() {
           image:"https://gocode.academy/wp-content/uploads/2018/06/javascript-logo.png",
             label:"developpement front-end"
         },
+        suitecrm:{
+            image:"https://webmerge-public-files.s3-us-west-2.amazonaws.com/images/blog/covers/477_1530122138.png",
+            label:"Déploiement de CRM gratuit & open source"
+        },
         nodejs:{
           image:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Node.js_logo_2015.svg/2000px-Node.js_logo_2015.svg.png",
             label:"outils de développement frontend"
