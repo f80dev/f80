@@ -87,25 +87,59 @@
   </div>
 </nav>
 
-<header class="masthead text-center text-white d-flex">
+<header class="masthead text-center text-white d-flex h-100">
   <div class="container my-lg-auto my-md-2 my-sm-2">
-    <div class="row">
+    <div class="row text-center">
       <div class="col-lg-10 mx-auto">
-        <img src="./img/logoF80_inverse.png" class="fadeIn-medium" style="width:35vmin;opacity: 0.0;"><br><br><br>
+        <img src="./img/logoF80_inverse.png"
+             id="logo"
+             style="width:35vmin;opacity: 0.0;">
+        <br><br><br>
       </div>
       <div class="col-lg-12 text-light mx-auto mt-0 pt-0">
 
-          <div style="height:100px;font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 3vmax;font-weight:lighter;"
-                id="teaser">
+
+        <div id="carouselExample" style="position: relative;text-align: center">
+
+          <div name="message" class="message-start">
+                <h2 class="section-subheading">
+                    Confiez votre transformation digitale à un véritable expert
+                </h2>
+              </div>
+
+          <div name="message" class="message-start">
+            <h2 class="section-subheading">
+              Prototyper et tester vos idées en un temps record
+            </h2>
           </div>
+
+
+          <div name="message" class="message-start">
+                <h2 class="section-subheading">
+                    Utiliser l'intelligence artificielle pour traiter vos données
+                </h2>
+            </div>
+
+
+            <!--<div style="height:100px;font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 3vmax;font-weight:lighter;"-->
+                 <!--id="teaser">-->
+            <!--</div>-->
+
+          </div>
+        </div>
+
 
           <br><br><br><br>
         <!--<h2 class="font-weight-light fadeIn mt-5">Réaliser vos idées</h2><br>-->
           <br><br><br>
 
-          <a class="btn btn-primary btn-xl js-scroll-trigger fadeIn-Long my-auto" href="#mission">
-            <div style="width:130px;font-size:medium;">En savoir plus</div>
+
+          <a style="margin-left:35vw;opacity:0"
+             id="button_more"
+             class="btn btn-primary btn-xl js-scroll-trigger my-auto" href="#mission">
+            <div style="width:15vw;font-size:1.5vmax;">En savoir plus</div>
           </a>
+
       </div>
     </div>
   </div>
@@ -200,6 +234,8 @@
 
         </div>
       </div>
+
+
     </div>
 
 
@@ -217,9 +253,21 @@
     </div>
   </div>
 
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1200">
-    <div id="carousel_content" class="carousel-inner text-center carousel-title">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1500">
+    <div class="carousel-inner">
+      <div id="carousel_content" class="text-center carousel-title">
+      </div>
     </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only text-dark" >Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only text-dark">Next</span>
+    </a>
+
   </div>
 </section>
 
@@ -301,6 +349,21 @@
                   <h2 class="bg-primary">RSE VAL</h2>
                   <a class="info" href="javascript:popup('Site WEB de RSEVAL','./project_pages/rseval.html')"><div style="width:150px">En savoir plus</div></a>
                   <br><a class="info" href="https://rseval.fr" target="_blank"><div style="width:150px">Démarrer</div></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-11 col-lg-4 col-md-5">
+              <div class="hovereffect  m-3">
+                <div class="container-logo-references">
+                  <img class="logos-references" width="110%"
+                       height="100%"
+                       src="https://evolutis-formation.fr/media/k2/items/cache/8376aace7af18ea8cafa499d7e69a6ec_L.jpg" alt="SelfApp">
+                </div>
+                <div class="overlay">
+                  <h2 class="bg-primary">Self App</h2>
+                  <a class="info" href="javascript:popup('Self App','./project_pages/selfapp.html')"><div style="width:150px">En savoir plus</div></a>
+                  <br><a class="info" href="https://rousseauautomobile.appspot.com" target="_blank"><div style="width:150px">Démarrer</div></a>
                 </div>
               </div>
             </div>
@@ -392,10 +455,14 @@
       $("#myModal").modal();
   }
 
-  setTimeout(()=>{
-      var elt=document.getElementById("teaser");
-      new TxtRotate(elt, [{text:"Prototyper et tester vos idées en un temps record"},{text:"Améliorer votre performance commerciale en passant des slides à la réalisation"},{text:"Utiliser l'intelligence artificielle pour traiter vos données"},{text:"Profitez d'un interlocuteur unique de bout en bout"}],2000);
-  },500)
+  // setTimeout(()=>{
+  //     var elt=document.getElementById("teaser");
+  //     new TxtRotate(elt, [
+  //         {text:"Prototyper et tester vos idées en un temps record"},
+  //         {text:"Améliorer votre performance commerciale en passant des slides à la réalisation"},
+  //         {text:"Utiliser l'intelligence artificielle pour traiter vos données"},
+  //         {text:"Profitez d'un interlocuteur unique de bout en bout"}],2000);
+  // },500)
 </script>
 
 </body>
