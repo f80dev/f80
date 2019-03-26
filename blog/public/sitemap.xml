@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://f80.fr/f80news/public/posts/welcome/</loc>
+    <loc>https://f80.fr/blog/public/posts/welcome/</loc>
     <lastmod>2019-03-20T19:57:09+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://f80.fr/f80news/public/categories/</loc>
+    <loc>https://f80.fr/blog/public/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://f80.fr/f80news/public/</loc>
-    <lastmod>2019-03-20T19:57:09+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://f80.fr/f80news/public/posts/</loc>
+    <loc>https://f80.fr/blog/public/</loc>
     <lastmod>2019-03-20T19:57:09+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://f80.fr/f80news/public/tags/</loc>
+    <loc>https://f80.fr/blog/public/posts/</loc>
+    <lastmod>2019-03-20T19:57:09+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://f80.fr/blog/public/tags/</loc>
     <priority>0</priority>
   </url>
   

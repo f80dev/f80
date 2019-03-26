@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Le blog</title>
-    <link>https://f80.fr/f80news/public/</link>
+    <link>https://f80.fr/blog/public/</link>
     <description>Recent content on Le blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Wed, 20 Mar 2019 19:57:09 +0100</lastBuildDate>
     
-	<atom:link href="https://f80.fr/f80news/public/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://f80.fr/blog/public/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bienvenue sur le blog d&#39;F80</title>
-      <link>https://f80.fr/f80news/public/posts/welcome/</link>
+      <link>https://f80.fr/blog/public/posts/welcome/</link>
       <pubDate>Wed, 20 Mar 2019 19:57:09 +0100</pubDate>
       
-      <guid>https://f80.fr/f80news/public/posts/welcome/</guid>
+      <guid>https://f80.fr/blog/public/posts/welcome/</guid>
       <description>L&amp;rsquo;objet du blog est de rendre accessible à tous, en Français et peut être en anglais dans un second temps, une partie de mes connaissances en ingénièrie logicielle et sciences des données appliquées à la transformation digitale des activités de mes clients.
 Les billets s&amp;rsquo;adresseront à un public plutôt technophiles.
 Bonne lecture

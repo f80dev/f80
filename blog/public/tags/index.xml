@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Le blog</title>
-    <link>https://f80.fr/f80news/public/tags/</link>
+    <link>https://f80.fr/blog/public/tags/</link>
     <description>Recent content in Tags on Le blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     
-	<atom:link href="https://f80.fr/f80news/public/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://f80.fr/blog/public/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
