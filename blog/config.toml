@@ -1,0 +1,5 @@
+baseURL = "https://f80.fr/f80news/public"
+languageCode = "fr-fr"
+title = "Le blog"
+theme = "ananke"
+
