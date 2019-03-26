@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://f80.fr/blog/public/posts/zulip/</loc>
+    <lastmod>2019-03-26T14:14:17+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://f80.fr/blog/public/posts/welcome/</loc>
     <lastmod>2019-03-20T19:57:09+01:00</lastmod>
   </url>
@@ -14,13 +19,13 @@
   
   <url>
     <loc>https://f80.fr/blog/public/</loc>
-    <lastmod>2019-03-20T19:57:09+01:00</lastmod>
+    <lastmod>2019-03-26T14:14:17+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://f80.fr/blog/public/posts/</loc>
-    <lastmod>2019-03-20T19:57:09+01:00</lastmod>
+    <lastmod>2019-03-26T14:14:17+01:00</lastmod>
     <priority>0</priority>
   </url>
   

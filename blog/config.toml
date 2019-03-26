@@ -1,5 +1,4 @@
 baseURL = "https://f80.fr/blog/public"
 languageCode = "fr-fr"
-title = "Le blog"
+title = "F80 - Le blog"
 theme = "ananke"
-

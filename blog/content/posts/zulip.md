@@ -1,7 +1,7 @@
 ---
 title: "Zulip, le Slack gratuit"
 date: 2019-03-26T14:14:17+01:00
-draft: true
+draft: false
 ---
 #Introduction
 Slack c'est très bien. En tout cas, pour travailler sur un petit projet à plusieurs c'est beaucoup mieux que le mail. Mais c'est pas gratuit.

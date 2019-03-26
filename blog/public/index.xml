@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Le blog</title>
+    <title>F80 - Le blog</title>
     <link>https://f80.fr/blog/public/</link>
-    <description>Recent content on Le blog</description>
+    <description>Recent content on F80 - Le blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Wed, 20 Mar 2019 19:57:09 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 26 Mar 2019 14:14:17 +0100</lastBuildDate>
     
 	<atom:link href="https://f80.fr/blog/public/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Zulip, le Slack gratuit</title>
+      <link>https://f80.fr/blog/public/posts/zulip/</link>
+      <pubDate>Tue, 26 Mar 2019 14:14:17 +0100</pubDate>
+      
+      <guid>https://f80.fr/blog/public/posts/zulip/</guid>
+      <description>#Introduction Slack c&amp;rsquo;est très bien. En tout cas, pour travailler sur un petit projet à plusieurs c&amp;rsquo;est beaucoup mieux que le mail. Mais c&amp;rsquo;est pas gratuit. Enfin forcément il y a des limitations. Alors, comme d&amp;rsquo;habitude dans l&amp;rsquo;informatique, en cherchant un peu, on trouve des alternatives gratuites.
+#Zulip Au moins 3 ont un peu de notoriété. Rocket.Team,
+##Installation Considérons le serveur utilisé comme vierge. Après l&amp;rsquo;installation de Docker,
+curl -fsSL https://get.</description>
+    </item>
     
     <item>
       <title>Bienvenue sur le blog d&#39;F80</title>
