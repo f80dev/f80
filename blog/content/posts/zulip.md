@@ -26,6 +26,10 @@ Installer le processus docker et lancer la fabrication
 
     docker-compose up
     
+Un script d'installation simplifiée pour Fedora peut être lancé ainsi :
+
+    curl -fsSL https://raw.githubusercontent.com/f80dev/zulip_install/master/fedora_setup.sh | sh
+
 
     
 Suivi 
