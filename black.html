@@ -5,5 +5,16 @@
     <title></title>
 </head>
 <body style="margin:0px;padding:0px;background-color: lightgrey;overflow: hidden;">
+<script>
+    function getParam() {
+        var vars = {};
+        window.location.href.replace(location.hash, '')
+            .replace(/[?&]+([^=&]+)=?([^&]*)?/gi, function (m, key, value) { return vars[key] = value !== undefined ? value : ''; });
+        return vars;
+    }
+
+    if(getParam().bkcolor!=null)
+        document.body.style.backgroundColor=getParam().bkcolor;
+</script>
 </body>
 </html>
