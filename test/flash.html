@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="tools.js"></script>
+</head>
+<body>
+<img id="qrcode" style="width:60vmin;height:60vmin"><br>
+<div id="link"></div>
+<script>
+    var user=localStorage.getItem("login");
+    if(!user)
+        document.location.href="login.html?redirect_with="+getParam().old;
+
+    if(getParam().old){
+        service("createcoupon",getParam().old+"/"+user,(res)=>{
+            document.getElementById("qrcode").src= "data:image/png;base64, "+res.qrcode;
+            if(res.url.length>0)
+                document.getElementById("link").innerHTML="<a href='"+res.url+"'>Flash</a>";
+            else
+                document.getElementById("link").innerHTML="Vous ne pouvez pas flasher vos propres coupons";
+        });
+    } else {
+        service("addoddment",getParam().shop+"/paul.dudule@gmail.com/"+getParam().from)
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="tools.js"></script>
+</head>
+<body>
+    <label for="useremail">Email</label>
+    <input type="text" name="useremail" id="useremail" required minlength="4" size="30">
+</body>
+
+<script>
+    document.getElementById("useremail").addEventListener("keypress",function($event){
+        if($event.keyCode==13){
+            localStorage.setItem("login",document.getElementById("useremail").value);
+            location.href="./flash.html?old="+getParam().redirect_with;
+        }
+    })
+</script>
+</html>

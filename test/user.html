@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User</title>
+    <script src="tools.js"></script>
+</head>
+<body>
+    <div id="out"></div>
+</body>
+
+<script>
+    var s="";
+    var userid=localStorage.getItem("login");
+    service("getuser",userid,(r)=>{
+        document.getElementById("out").innerHTML=JSON.stringify(r);
+    });
+
+</script>
+</html>
