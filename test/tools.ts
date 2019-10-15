@@ -6,7 +6,7 @@ function getParam(): any {
 }
 
 function getServer(){
-    //return "http://localhost:5000";
+    //return "http://localhost:5500";
     return "https://server.f80.fr:5500"
 }
 

@@ -12,7 +12,8 @@
         "template"
     ],
     "scripts": {
-        "server": "live-server --ignore=./backup --port=8090"
+        "server": "live-server --ignore=./backup --port=8090",
+        "pyreduc": "live-server --ignore=./backup --port=8090 ./test/raz.html"
     },
     "homepage": "https://startbootstrap.com/template-overviews/creative",
     "bugs": {
