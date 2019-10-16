@@ -172,6 +172,11 @@ function init_competences() {
             label:"developpement microserver pour python",
             link:"https://github.com/cnrsf80/ClusterBench"
         },
+        talend:{
+            image:"https://www.talend.com/wp-content/uploads/talend-logo.svg",
+            label:"ETL Talend OpenData Studio",
+            link:"https://fr.talend.com/products/talend-open-studio/"
+        },
         scikit:{
           image:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png",
             label:"librairie Python de data science",

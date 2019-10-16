@@ -136,7 +136,13 @@
   display: none;
 }
 
-
+.web-mosaic {
+  display:inline-block;
+  width:40%;
+  height:400px;
+  border:solid 2px lightgray;
+  margin:10px;
+}
 
 
 .showhim:hover .showme{
