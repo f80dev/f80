@@ -20,34 +20,64 @@
 
 
 </head>
-<body style="text-align: left;padding: 0px;overflow: hidden;" class="small">
+<body style="text-align: left;padding: 5px;overflow: hidden;" class="small">
 <h3>Production d'une API de clustering & représentation 3D pour le CNRS</h3>
 
-Dans le cadre d'un travail de recherche en archéologie pour le CNRS, F80 à développé une API de clustering et d'analyse de graphe dans le but d'opérer certains rapprochement
-d'échantillons archéologiques par composition chimique similaire.
+Dans le cadre d'un travail de recherche en archéologie pour le CNRS, F80 a développé une API de clustering et d'analyse de graphe dans le but d'opérer certains rapprochement
+d'échantillons archéologiques par composition chimique similaire.<br><br>
 
 L'api, développée en Python, repose sur la librairie SCIKIT-LEARN pour le clustering et NetworkX pour l'analyse de graphe.
-Elle utilise les derniers algorithmes (notamment l'optimisation de DBSCAN en multi-densité : <a href="https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html">HDBSCAN</a>) de
-clustering pour regrouper des échantillions archélogiques par composition chimique similaire.<br><br>
+Elle utilise les derniers algorithmes de clustering
+(notamment l'optimisation de DBSCAN en multi-densité : <a href="https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html">HDBSCAN</a>)
+pour regrouper des échantillions archélogiques par composition chimique similaire.<br><br>
 
-La projection 3D utlise des techniques de projection reposant sur l'analyse en composante principale pour représenter des vecteurs à "n" dimensions.
+La projection 3D utlise des techniques de projection reposant sur l'analyse en composantes principales pour représenter des vecteurs à "n" dimensions.
 Pour garantir un fonctionnement sur tout type de terminaux, la représentation 3D repose sur la bibliotheque BabylonJS, habituellement utilisé
 pour le jeu vidéo et compatible avec tous les navigateurs récents du marché.
 <br><br>On assure ainsi une parfaite représentation tout en permettant une certaine interactivité sur le graphique (changement d'angle,
 mise en transparence, enregistrement vidéo ...) <br><br>
 
-Du point de vue infrastucture, l'api peut être déployé rapidement sur n'importe quel serveur x86 via Docker. Ainsi le calcul peut être déporté vers des machines dédiées pendant que la
+Du point de vue infrastucture, l'api peut être déployée rapidement sur n'importe quel serveur x86 via <a href="https://hub.docker.com/r/f80hub/cluster_bench_x86">Docker</a>.
+Ainsi le calcul peut être déporté vers des machines dédiées pendant que la
 représentation et la manipulation des données reste accessible sur tout type de terminaux (y compris les smartphones).
 
-Exemple d'utilisation :<br>
+<br><br>Exemple d'utilisation :<br>
 <code>
     https://server.f80.fr:5000/graph/lesmis.gml/fr?algo_comm=NOTREATMENT&dir=public&notext=True&nometrics=True&add_property=False&autorotate=True&limit=5000&pca=1&processors=2
 </code>
 <br><br>
 
-<iframe style="margin-left:10%;width:80%;height:500px;"
-        src="https://server.f80.fr:5000/graph/lesmis.gml/fr?algo_comm=NOTREATMENT&dir=public&notext=True&nometrics=True&add_property=False&autorotate=True&limit=5000&pca=1&processors=2">
-</iframe>
+<p style="font-size: x-small">
+    Les réprésentations ci-dessous sont directement manipulables depuis la souris et le clavier (voir les <a href="https://3dh.f80.fr/www/help.html#faq2" target="_blank">FAQ</a> pour plus d'informations)
+</p>
+
+<table style="width: 100%;" cellpadding="5px">
+    <tr style="text-align: center;">
+        <th>
+           Analyse de graphe (les misérables)
+        </th>
+        <th>
+            Clustering d'échantillons archéologique
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <iframe style="width: 100%;height:400px;"
+                    src="https://server.f80.fr:5000/graph/lesmis.gml/fr?algo_comm=NOTREATMENT&dir=public&notext=True&nometrics=True&add_property=False&autorotate=True&limit=5000&pca=1&processors=2">
+            </iframe>
+        </td>
+        <td>
+            <iframe style="width: 100%;height:400px;"
+                    src="https://server.f80.fr:5000/job/Armure_Resultats.xlsx/HDBSCAN/min_samples=2&min_cluster_size=3&alpha=0.5&/graph?filter=&dir=public&notext=True&nometrics=True&add_property=False&autorotate=True&limit=5000&pca=1&processors=2">
+            </iframe>
+
+        </td>
+    </tr>
+</table>
+
+
+
+
 
 </body>
 </html>
