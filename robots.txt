@@ -5,4 +5,4 @@ Disallow: /*.png$
 Disallow: /*.gif$
 Disallow: /images/
 Allow: /
-Sitemap: https://rseval.fr/sitemap.xml
+Sitemap: https://f80.fr/sitemap.xml
